@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbinder_shim
 
+# Soong
+PRODUCT_BOARD_PLATFORM := msm8937
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
